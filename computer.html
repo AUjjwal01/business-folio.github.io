@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Landing page</title>
+  
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="landing.css">
+<style>
+    *{
+        margin: 0;
+    }
+.animated{/*background:linear-gradient(to right, #f9957f,#fdc9c9); */
+    background: #f5e4dc;
+    bottom: 0; right:0;
+width: 100%;
+height: 100%;
+  position: absolute;
+  /*                (radius at center of the circle x y)*/
+  clip-path: circle(400px at right);
+  animation: mymove 4s infinite;
+  transition: transform 100ms ease-in-out;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 30px;}
+}
+.header p{
+    position: relative;
+}
+.header{position: relative;
+    width: 100%;
+    height: 100vh;opacity: 1;
+    
+    background-color: #f7f7f7;
+    /* background:linear-gradient(to right, #f9957f,#f2f5d0); */
+}
+img{
+    max-height: 500px;
+    z-index: 1;position: relative;
+}
+</style>
+</head>
+<body>
+    <section class="header">
+        <div class="animated"> 
+        </div>
+        <div>
+            
+                <nav>
+                    <ul>
+                        <li>Home </li>
+                        <li>About</li>
+                        <li>Services </li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+                <section class="main">
+                   
+                    <div>
+                        <h1 style="font-size: 3.1em;letter-spacing: 4px;"> Food 'n drinks</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos corrupti ad minima nisi numquam tempore, repudiandae architecto ducimus eos ea! Mollitia temporibus rerum nesciunt.
+                                <br>          <button><a href="#">Know More</a></button>
+
+                    </p>
+                    </div>
+                   <div>
+
+                    <img  src="/images/blueberry.png" class="impimg">
+
+                   </div>
+                
+
+
+            </section>
+
+        </div>
+        
+    </section>
+<section class="intro">
+    <div class="intro_bg"></div> <br> <br> <br> <br>
+    <h1>Lorem ipsum dolor</h1> <hr>
+    <div class="intro_div">
+        <p > Lorem ipsum dolor, sit amet consectetur adipisicing elit a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel incidunt impedit necessitatibus laudantium voluptatem ex temporibus officiis repellat, nesciunt eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa perferendis ratione soluta nemo. Eum temporibus et ratione quas, ex vitae quo perspiciatis nam unde fuga ipsum veniam consectetur magni atque.
+            <br>                     
+
+        </p> 
+        <section>
+            <img src="/images/WhatsApp Image 2021-03-03 at 11.30.23 AM (1).jpeg" alt="">
+        </section>
+        </div>
+ 
+
+
+</section>
+<br> 
+<br>
+<div class="space"></div>
+<section class="ourservices">
+
+     <h2>Only the highest quality ingredients</h2> <hr>
+     <div class="ourser_grid">
+         <section class="circle"></section>
+     <div class="logo">
+         <img src="/images/Untitled.png" alt="">
+     </div>
+     <div>
+         <h3 style="font-size: 2.3em; margin: 1.5em 1em;">You deserve the best </h3>
+         <p>Hence we provide you with some of the exquisite taste which you are awaiting.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum necessitatibus voluptatum reiciendis. Harum labore voluptates eligendi fugiat dolor. Illo, excepturi laudantium. Perspiciatis iusto distinctio voluptates amet molestias deserunt, voluptatibus saepe? </p>
+     </div>
+    </div>
+
+
+
+
+
+</section>
+
+
+</body>
+</html>
